@@ -763,6 +763,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8417120063069639336, guid: 486d915cd878d7e41bba2c53b12a758e, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 486d915cd878d7e41bba2c53b12a758e, type: 3}
 --- !u!1001 &4609303499486726992
@@ -772,6 +776,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6134161365154793292, guid: b6c7717e08498d84c89100180de075b8, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4609303500350405880, guid: b6c7717e08498d84c89100180de075b8, type: 3}
       propertyPath: m_Name
       value: Food_Steak
