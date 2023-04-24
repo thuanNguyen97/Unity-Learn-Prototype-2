@@ -6,6 +6,8 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animaPrefabs; 
 
+    public int animeIndex;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,9 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Instantiate(animaPrefabs[animeIndex], new Vector3(0, 0, 20), animaPrefabs[animeIndex].transform.rotation);
+        }
     }
 }
